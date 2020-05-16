@@ -1,0 +1,263 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+}
+
+header {
+  height: 100vh;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: flex;
+  align-items: center;
+  height: 600px;
+  background-position: center;
+  width: 100%;
+  background: url('https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+}
+
+.logo {
+  position: fixed;
+  float: left;
+  margin: 16px 46px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: #000;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 40px;
+  ;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: #000;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+@media(max-width: 786px) {
+
+  .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: #000;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  nav.black ul {
+    background: #000;
+    flex-direction: row;
+  }
+
+  .showing {
+    max-height: 34em;
+    flex-direction: row;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+    flex-direction: row;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+}
+
+.content-raised {
+  margin: -250px 30px 0;
+  border-radius: 6px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2);
+}
+
+.avatar {
+  justify-content: center;
+  max-width: 160px;
+  width: auto;
+  margin: 0 auto;
+  -webkit-transform: translate3d(0, -50%, 0);
+  -moz-transform: translate3d(0, -50%, 0);
+  -o-transform: translate3d(0, -50%, 0);
+  -ms-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+
+}
+
+.img-raised {
+  box-shadow: 0 5px 15px -8px rgba(0, 0, 0, .24), 0 8px 10px -5px rgba(0, 0, 0, .2);
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.img-fluid,
+.img-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+
+.content {
+  position: relative;
+  z-index: 3;
+  background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&auto=format&fit=crop&w=1915&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  min-height: 32px;
+  color: white;
+  font-weight: 700;
+}
+
+.profile .name {
+  text-align: center;
+  margin-top: -100px;
+  color: white;
+}
+
+.profile .description {
+  margin: 1.071rem auto 0;
+  max-width: 600px;
+  color: whitesmoke;
+  font-weight: 300;
+}
+
+p {
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+
+.profile .profile-tabs {
+  margin-top: 4.284rem;
+}
+
+.nav-pills,
+.nav-tabs {
+  border: 0;
+  border-radius: 3px;
+  padding: 0 15px;
+}
+
+.nav .nav-item {
+  position: relative;
+  margin: 0 2px;
+}
+
+.nav-pills.nav-pills-icons .nav-item .nav-link {
+  border-radius: 4px;
+}
+
+.nav-pills .nav-item .nav-link.active {
+  color: #fff;
+  background-image: url('https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1915&q=80');
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .2), 0 13px 24px -11px rgba(156, 39, 176, .6);
+}
+
+.nav-pills .nav-item .nav-link {
+  line-height: 24px;
+  font-size: 12px;
+  font-weight: 500;
+  min-width: 100px;
+  color: white;
+  transition: all .3s;
+  border-radius: 30px;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.nav-pills .nav-item .nav-link:not(.active):hover {
+  background-color: rgba(200, 200, 200, .2);
+}
+
+
+.nav-pills .nav-item i {
+  display: block;
+  font-size: 30px;
+  padding: 15px 0;
+}
+
+.tab-space {
+  padding: 20px 0 50px;
+}
+
+.profile .gallery {
+  margin-top: 3.213rem;
+  padding-bottom: 50px;
+}
+
+.profile .gallery img {
+  width: 100%;
+  margin-bottom: 2.142rem;
+}
+
+img.rounded {
+  border-radius: 6px!important;
+}
+
+.tab-content>.active {
+  display: block;
+}
+
+.c-wrapper{
+  width: 80%;
+  margin: auto;
+}
+

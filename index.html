@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class=" fixed-top ">
+      <div class="menu-icon">
+        <i class="fa fa-bars fa-2x"></i>
+      </div>
+      <div class="logo">
+        Meedaxa Ahmed
+      </div>
+      <div class="menu">
+        <ul>
+          <li class="nav-item"><a class="nav-link" href="#about"><i style="margin-right: 10px;"
+                class="fa fa-user"></i>About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio"><i style="margin-right: 10px;"
+                class="fa fa-briefcase"></i>Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i style="margin-right: 10px;"
+                class="fa fa-address-book-o"></i>Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="content-raised content">
+    <div id="about" class="profile">
+      <div class="avatar">
+        <img src="./assets/images/me.jpeg" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+      </div>
+      <div class="name">
+        <h3 class="title">Meedaxa Ahmed</h3>
+        <h6>Full-stack Web Developer</h6>
+        <ul class="nav nav-pills nav-pills-icons justify-content-center">
+          <li class="nav-item">
+            <a target="_blank" class="nav-link" href="https://github.com/meeday">
+              <i style="color: white;" class="fa fa-github"></i>
+              github profile
+            </a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" class="nav-link" href="https://www.linkedin.com/in/meedaxaahmed/">
+              <i style="color: white;" class="fa fa-linkedin"></i>
+              linkedin profile
+            </a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" class="nav-link" href="#">
+              <i style="color: white;" class="fa fa-file-pdf-o"></i>
+              resume
+            </a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="description text-center">
+        <p> Full-stack developer with constantly expanding knowledge in HTML, CSS and Javascript. Background in
+          Marketing and management allows me to utilise my coding skills to make more customer-oriented web
+          applications. A recent certificate in Full-stack development from Birmingham University Coding Boot Camp has
+          turned what was a pastime activity into a refined skill set that will be employed throughout my career as a
+          professional coder. </p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 ml-auto mr-auto">
+          <div class="profile-tabs">
+            <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link" href="#favorite1" role="tab" data-toggle="tab">
+                  <i style="color: white;" class="material-icons">stars</i>
+                  Weather Dashboard
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project" role="tab" data-toggle="tab">
+                  <i style="color: white;" class="material-icons">stars</i>
+                  The Music App
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#favorite2" role="tab" data-toggle="tab">
+                  <i style="color: white;" class="material-icons">stars</i>
+                  password generator
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="portfolio" class="tab-content tab-space">
+        <div class="tab-pane text-center gallery" id="project">
+          <div class="row c-wrapper justify-content-md-center">
+            <h4 style="color: white;">Project 1: The Music App</h4>
+            <ul class="nav nav-pills nav-pills-icons justify-content-center">
+              <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://github.com/meeday">
+                  <i style="color: white;" class="material-icons">public</i>
+                  deployed site
+                </a>
+              </li>
+              <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://www.linkedin.com/in/meedaxaahmed/">
+                  <i style="color: white;" class="fa fa-github"></i>
+                  project repository
+                </a>
+              </li>
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/images/snapshots/The Music App.png" class="d-block w-100" alt="music-app">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/snapshots/The Music App2.png" class="d-block w-100" alt="music-app">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/snapshots/The Music App3.png" class="d-block w-100" alt="music-app">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+          </div>
+        </div>
+        <div class="tab-pane text-center gallery" id="favorite1">
+          <div class="row c-wrapper justify-content-md-center">
+            <h4 style="color: white;">Weather Dashboard</h4>
+            <ul class="nav nav-pills nav-pills-icons justify-content-center">
+              <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://github.com/meeday">
+                  <i style="color: white;" class="material-icons">public</i>
+                  deployed site
+                </a>
+              </li>
+              <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://www.linkedin.com/in/meedaxaahmed/">
+                  <i style="color: white;" class="fa fa-github"></i>
+                  project repository
+                </a>
+              </li>
+              <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/images/snapshots/weather dashboard.png" class="d-block w-100" alt="weather">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/snapshots/weather dashboard1.png" class="d-block w-100" alt="weather">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/snapshots/weather dashboard2.png" class="d-block w-100" alt="weather">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+          </div>
+        </div>
+        <div class="tab-pane text-center gallery" id="favorite2">
+          <div class="row c-wrapper justify-content-md-center">
+            <h4 style="color: white;">Password Generator</h4>
+            <ul class="nav nav-pills nav-pills-icons justify-content-center">
+              <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://github.com/meeday">
+                  <i style="color: white;" class="material-icons">public</i>
+                  deployed site
+                </a>
+              </li>
+              <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://www.linkedin.com/in/meedaxaahmed/">
+                  <i style="color: white;" class="fa fa-github"></i>
+                  project repository
+                </a>
+              </li>
+              <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/images/snapshots/Password generator.png" class="d-block w-100" alt="password">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/snapshots/Password generator1.png" class="d-block w-100" alt="password">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/snapshots/Password generator2.png" class="d-block w-100" alt="password">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                  <span class="sr-only ">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
