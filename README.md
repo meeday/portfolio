@@ -24,10 +24,10 @@ __Repo Link__
 [https://github.com/meeday/portfolio]
 
 __IMAGES__
-![applicationImages](assets\images\snapshots\Screenshot1.png)
-![applicationImages](assets\images\snapshots\Screenshot2.png)
-![applicationImages](assets\images\snapshots\Screenshot3.png)
-![applicationImages](assets\images\snapshots\Screenshot4.png)
-![applicationImages](assets\images\snapshots\Screenshot5.png)
+![applicationImages](assets\Screenshot1.png)
+![applicationImages](assets\Screenshot2.png)
+![applicationImages](assets\Screenshot3.png)
+![applicationImages](assets\Screenshot4.png)
+![applicationImages](assets\Screenshot5.png)
 
 
