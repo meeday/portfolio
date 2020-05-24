@@ -118,6 +118,8 @@ nav ul li a {
 
 }
 /* portfolio content styling */
+
+/* about me section */
 .content-raised {
   margin: -250px 30px 0;
   border-radius: 6px;
@@ -188,7 +190,7 @@ p {
 .profile .profile-tabs {
   margin-top: 4.284rem;
 }
-
+/* styling for the various nav pills */
 .nav-pills,
 .nav-tabs {
   border: 0;
@@ -255,7 +257,7 @@ img.rounded {
 .tab-content>.active {
   display: block;
 }
-
+/* styling to center and resize carousel */
 .c-wrapper{
   width: 80%;
   margin: auto;
